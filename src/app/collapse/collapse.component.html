@@ -1,0 +1,43 @@
+<div class="question-card card">
+  <a class="p-20 question-card-header" data-toggle="collapse" [attr.data-target]="'#' + index" aria-expanded="true"
+    [attr.aria-controls]="index">
+    <div class="row" id="headingOne">
+      <div class="col-11">
+        <h5 class="text-left">TEST</h5>
+      </div>
+      <div class="col-1 text-center">
+        <span>
+          <i class="fas fa-chevron-down"></i>
+        </span>
+      </div>
+    </div>
+  </a>
+  <div id="{{index}}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+    <div class="card-body p-20">
+      TEST
+    </div>
+  </div>
+</div>
+
+<!--
+<div class="question-card card">
+  <a class="p-20 question-card-header" data-toggle="collapse" [attr.data-target]="'#' +  index " aria-expanded="true"
+    [attr.aria-controls]="index">
+    <div class="row" id="headingOne">
+      <div class="col-11">
+        <h5 class="text-left">{{title}}</h5>
+      </div>
+      <div class="col-1 text-center">
+        <span>
+          <i class="fas fa-chevron-down"></i>
+        </span>
+      </div>
+    </div>
+  </a>
+  <div id="{{ index }}" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+    <div class="card-body p-20">
+      {{ content }}
+    </div>
+  </div>
+</div>
+-->

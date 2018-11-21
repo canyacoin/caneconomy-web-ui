@@ -1,0 +1,30 @@
+.top-container {
+  padding-top: 15vh;
+  padding-bottom: 30px;
+}
+
+.btn-canya-chat {
+  background-image: linear-gradient(41deg, #62E7FF 0%, #33CAFF 100%);
+  border-radius: 64px;
+  min-width: 175px;
+  margin: 15px 0 15px 0;
+}
+
+.info-container {
+    padding: 15px 0 15px 0;
+    background-color: #f8f9fa;
+}
+
+
+
+.info-container .col-sm-8, .col-sm-6, .col-sm-4, .col-sm-3{
+    padding: 0;
+} 
+
+.info-card{
+    background-color: white;
+    border-radius: 5px;
+    padding:15px;
+    margin: 5px;
+    height: 100%;
+}
